@@ -1,4 +1,4 @@
-10 Sexond Ninja X
+10 Second Ninja X
 
 ![10snx](https://github.com/booYah187/ports/blob/main/ports/10snx/10snx.jpg) 
 
