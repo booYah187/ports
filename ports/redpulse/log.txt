@@ -1,0 +1,1079 @@
+Setting video mode 640x480.
+Initializing OpenGL funcs...
+Opening redpulse.apk...
+Creating zip handle...
+Inflating lib/armeabi-v7a/libc++_shared.so...
+platform/common/zip_util.c:71: Failed to stat file 'lib/armeabi-v7a/libc++_shared.so'.
+Loading runner elf lib/armeabi-v7a/libc++_shared.so (0xf4aa6008, 558988 bytes)...
+loading section 0/8...
+loading section 1/8...
+code cave: 3440 bytes (@0x00093290).
+loading section 2/8...
+loading section 3/8...
+loading section 4/8...
+loading section 5/8...
+loading section 6/8...
+loading section 7/8...
+platform/common/so_util.c:536: Missing: strtoimax
+platform/common/so_util.c:536: Missing: strtoumax
+Missing: strcoll
+Missing: strxfrm
+Missing: wcscoll
+Missing: wcsxfrm
+Missing: iswspace
+Missing: iswprint
+Missing: iswcntrl
+Missing: iswalpha
+Missing: iswdigit
+Missing: iswpunct
+Missing: iswxdigit
+Missing: vsscanf
+Missing: btowc
+Missing: wctob
+Missing: mbrlen
+Missing: pthread_mutex_trylock
+Missing: sched_yield
+Missing: pthread_self
+Missing: pthread_equal
+Missing: open
+Missing: close
+Missing: read
+Missing: strerror_r
+Missing: pthread_detach
+Missing: __assert2
+Missing: dladdr
+Inflating lib/armeabi-v7a/libyoyo.so...
+Loading runner elf lib/armeabi-v7a/libyoyo.so (0xf0ce0008, 4772484 bytes)...
+loading section 0/8...
+loading section 1/8...
+loading section 2/8...
+code cave: 3960 bytes (@0x403BC088).
+loading section 3/8...
+loading section 4/8...
+loading section 5/8...
+loading section 6/8...
+loading section 7/8...
+Missing: rename
+Missing: perror
+Missing: shutdown
+Missing: close
+Missing: select
+Missing: getsockopt
+Missing: setsockopt
+Missing: socket
+Missing: ioctl
+Missing: inet_pton
+Missing: bind
+Missing: listen
+Missing: accept
+Missing: recv
+Missing: recvfrom
+Missing: inet_ntop
+Missing: inet_ntoa
+Missing: send
+Missing: getaddrinfo
+Missing: freeaddrinfo
+Missing: inet_addr
+Missing: if_nametoindex
+Missing: fcntl
+Missing: connect
+Missing: sendto
+Missing: getpeername
+Missing: mkstemp
+Missing: fdopen
+Missing: localtime
+Missing: zError
+Missing: tmpfile
+Missing: munmap
+Missing: mmap
+Missing: __assert2
+Applying port specific patches...
+Patching LoadTextureFromPNG to variant #2
+Unable to find method `ExpandCompressedFile` (aka: 'Java_com_yoyogames_runner_RunnerJNILib_ExpandCompressedFile') for 'RunnerJNILib'.
+render_splash_image vert status: 
+render_splash_image frag status: 
+Blitter Program Info: 
+loc_aVertCoord 1
+loc_aTexCoord 0
+loc_uFBOtex 0
+loc_uProj -1
+loc_uTexSize -1
+Class RunnerJNILib does not have method OpenURL.
+Class RunnerJNILib does not have method SendHighScore.
+Class RunnerJNILib does not have method SendAchievement.
+Class RunnerJNILib does not have method IncrementAchievement.
+Class RunnerJNILib does not have method OpenAchievements.
+Class RunnerJNILib does not have method OpenLeaderboards.
+Class RunnerJNILib does not have method AchievementLoadFriends.
+Class RunnerJNILib does not have method AchievementLoadLeaderboard.
+Class RunnerJNILib does not have method CallExtensionFunction.
+Class RunnerJNILib does not have method AchievementLoadPic.
+Class RunnerJNILib does not have method AchievementShow.
+Class RunnerJNILib does not have method AchievementEvent.
+Class RunnerJNILib does not have method AchievementGetInfo.
+Class RunnerJNILib does not have method AchievementLogin.
+Class RunnerJNILib does not have method AchievementLoginStatus.
+Class RunnerJNILib does not have method AchievementLogout.
+Class RunnerJNILib does not have method EnableAds.
+Class RunnerJNILib does not have method MoveAds.
+Class RunnerJNILib does not have method AdsSetup.
+Class RunnerJNILib does not have method DisableAds.
+Class RunnerJNILib does not have method AdsEvent.
+Class RunnerJNILib does not have method AdsEventPreload.
+Class RunnerJNILib does not have method AdsDisplayWidth.
+Class RunnerJNILib does not have method AdsDisplayHeight.
+Class RunnerJNILib does not have method LeaveRating.
+Class RunnerJNILib does not have method EnableInAppBilling.
+Class RunnerJNILib does not have method RestoreInAppPurchases.
+Class RunnerJNILib does not have method AcquireInAppPurchase.
+Class RunnerJNILib does not have method ConsumeInAppPurchase.
+Class RunnerJNILib does not have method GetInAppPurchaseDetail.
+Class RunnerJNILib does not have method FacebookInit.
+Class RunnerJNILib does not have method FacebookLogin.
+Class RunnerJNILib does not have method FacebookAccessToken.
+Class RunnerJNILib does not have method FacebookUserId.
+Class RunnerJNILib does not have method FacebookGraphRequest.
+Class RunnerJNILib does not have method FacebookDialog.
+Class RunnerJNILib does not have method FacebookInviteDialog.
+Class RunnerJNILib does not have method FacebookLogout.
+Class RunnerJNILib does not have method FacebookLoginStatus.
+Class RunnerJNILib does not have method FacebookCheckPermission.
+Class RunnerJNILib does not have method FacebookRequestPermissions.
+Class RunnerJNILib does not have method HttpGet.
+Class RunnerJNILib does not have method HttpPost.
+Class RunnerJNILib does not have method HttpRequest.
+Class RunnerJNILib does not have method PlayMP3.
+Class RunnerJNILib does not have method ShowMessage.
+Class RunnerJNILib does not have method setSystemUIVisibilityFlags.
+Class RunnerJNILib does not have method InputString.
+Class RunnerJNILib does not have method ShowQuestion.
+Class RunnerJNILib does not have method ShowMessageAsync.
+Class RunnerJNILib does not have method InputStringAsync.
+Class RunnerJNILib does not have method ShowQuestionAsync.
+Class RunnerJNILib does not have method ShowLogin.
+Class RunnerJNILib does not have method RestrictOrientation.
+Class RunnerJNILib does not have method isNetworkConnected.
+Class RunnerJNILib does not have method CheckPermission.
+Class RunnerJNILib does not have method RequestPermission.
+Class RunnerJNILib does not have method powersaveEnable.
+Class RunnerJNILib does not have method MoveTaskToBack.
+Class RunnerJNILib does not have method analyticsEvent.
+Class RunnerJNILib does not have method analyticsEventExt.
+Class RunnerJNILib does not have method cloudStringSave.
+Class RunnerJNILib does not have method cloudSynchronise.
+Class RunnerJNILib does not have method DumpUsedMemory.
+Class RunnerJNILib does not have method SetLaunchedFromPlayer.
+Class RunnerJNILib does not have method PushLocalNotification.
+Class RunnerJNILib does not have method PushGetLocalNotification.
+Class RunnerJNILib does not have method PushCancelLocalNotification.
+Class RunnerJNILib does not have method GetUDID.
+Class RunnerJNILib does not have method VirtualKeyboardToggle.
+Class RunnerJNILib does not have method VirtualKeyboardGetStatus.
+Class RunnerJNILib does not have method VirtualKeyboardGetHeight.
+Class RunnerJNILib does not have method OnKeyboardStringSet.
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(9999)[r32908]    *
+***************************************	 
+Trying to load WAD from /roms/ports/redpulse/gamedata/game.droid.
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..LOG[yoyo]: Attempting to set gamepadcount to 1
+GAMEPAD: 2 axis values (last) at 0x30f3568
+Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 929 global variables
+got 929 instance variables
+got 17 local variables
+ID_STRG
+Create Window
+Init Graphics
+GR_D3D_Init()
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   204
+Process Chunk: OPTN   80
+Process Chunk: LANG   12
+Process Chunk: EXTN   4
+Process Chunk: SOND   3764
+Audio_Load()
+Process Chunk: AGRP   36
+AudioGroup_Load()
+Process Chunk: SPRT   1548472
+Process Chunk: BGND   2476
+Process Chunk: PATH   4
+Process Chunk: SCPT   784
+Process Chunk: GLOB   4
+Process Chunk: SHDR   340
+Process Chunk: FONT   20196
+Process Chunk: TMLN   16
+Process Chunk: OBJT   317164
+Process Chunk: ROOM   491944
+Process Chunk: DAFL   0
+Process Chunk: TPAG   77640
+Process Chunk: CODE   828432
+Process Chunk: VARI   76312
+Process Chunk: FUNC   46016
+Process Chunk: STRG   194236
+Process Chunk: TXTR   8782032
+Process Chunk: AUDO   124608
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 810 objects:
+	Objects 0: obj_controlsetup0
+	Objects 512: obj_spinrod1
+	Objects 1: obj_kbsetup0
+	Objects 513: obj_spinrod2
+	Objects 2: obj_xbpadsetup0
+	Objects 514: obj_pinkhole0
+	Objects 3: obj_dinputsetup0
+	Objects 515: obj_pinkhole1
+	Objects 4: obj_menugraphic
+	Objects 516: obj_seekboss
+	Objects 5: obj_menugraphic2
+	Objects 517: obj_bulkatk1
+	Objects 6: obj_MAINMENU
+	Objects 518: obj_bossbounce1
+	Objects 7: obj_LEVELSELECT
+	Objects 519: obj_bossbounce0
+	Objects 8: obj_OPTIONSMENU
+	Objects 520: obj_blaserbeam0
+	Objects 9: obj_PAUSEMEN
+	Objects 521: obj_blaserbeam1
+	Objects 10: obj_CONTINUE2
+	Objects 522: obj_blaserbeam2
+	Objects 11: obj_CONTINUE
+	Objects 523: obj_bplatm0
+	Objects 12: obj_controlset
+	Objects 524: obj_bplatm2
+	Objects 13: obj_controlset0
+	Objects 525: obj_bplatm3
+	Objects 14: obj_controlset1
+	Objects 526: obj_bbull7
+	Objects 15: obj_controlset2
+	Objects 527: obj_bsword0
+	Objects 16: obj_optionmenu
+	Objects 528: obj_bsword1
+	Objects 17: obj_TIP
+	Objects 529: obj_bsword2
+	Objects 18: obj_GAMEOVERSPR
+	Objects 530: obj_abullet1
+	Objects 19: obj_RPlogo
+	Objects 531: obj_grounda0
+	Objects 20: obj_optionsmenu0
+	Objects 532: obj_turrethost0
+	Objects 21: obj_levelpreview0
+	Objects 533: obj_moveplatm0
+	Objects 22: obj_levelpbs
+	Objects 534: obj_bigturret0
+	Objects 23: obj_pbprofile
+	Objects 535: obj_turretspawn
+	Objects 24: obj_pbprofilerank
+	Objects 536: obj_platformspawner0
+	Objects 25: obj_gameprofilerank
+	Objects 537: obj_sideturret0
+	Objects 26: obj_1CC
+	Objects 538: obj_flamespreader0
+	Objects 27: obj_NM
+	Objects 539: obj_roomboss1
+	Objects 28: obj_camlockhost
+	Objects 540: obj_roomboss2
+	Objects 29: obj_camera2
+	Objects 541: obj_turretspawn1
+	Objects 30: obj_groundcam
+	Objects 542: obj_turretspawn2
+	Objects 31: obj_aggro
+	Objects 543: obj_bigturret1
+	Objects 32: obj_STOP1
+	Objects 544: obj_robohead0
+	Objects 33: obj_STOP2
+	Objects 545: obj_robohead0sub
+	Objects 34: obj_camtrig
+	Objects 546: obj_movearea0
+	Objects 35: obj_horilock
+	Objects 547: obj_turretstain
+	Objects 36: obj_vertlock
+	Objects 548: obj_smallerturret0
+	Objects 37: obj_vertcoord
+	Objects 549: obj_smallerturret0gun
+	Objects 38: obj_bosscam
+	Objects 550: obj_bombbul0
+	Objects 39: obj_SOUNDSandSYS
+	Objects 551: obj_homingbul0
+	Objects 40: obj_globalcontrols
+	Objects 552: obj_finalbp0
+	Objects 41: obj_SYSTEM
+	Objects 553: obj_finalbp0aim
+	Objects 42: obj_MENU1
+	Objects 554: obj_finalbpatk
+	Objects 43: obj_livesmeter
+	Objects 555: obj_subdrone
+	Objects 44: obj_fuelmeter
+	Objects 556: obj_finalcore0open
+	Objects 45: obj_bombmeter
+	Objects 557: obj_finalcore0
+	Objects 46: obj_bosshealth
+	Objects 558: obj_finalcoreend
+	Objects 47: obj_PAUSE
+	Objects 559: obj_tallturret
+	Objects 48: obj_musicfadeout
+	Objects 560: obj_tallturretsh
+	Objects 49: obj_leveltimer
+	Objects 561: obj_tallturretb
+	Objects 50: obj_endlevel
+	Objects 562: obj_enfrocket1
+	Objects 51: obj_endboard
+	Objects 563: obj_bombull1
+	Objects 52: obj_RANK
+	Objects 564: obj_bendingbul0
+	Objects 53: obj_TIMESPLIT
+	Objects 565: obj_dronegroup0
+	Objects 54: obj_carryover
+	Objects 566: obj_auraspray0
+	Objects 55: obj_splitbox
+	Objects 567: obj_lastaura0
+	Objects 56: obj_stgtimer2
+	Objects 568: obj_lastdrone0
+	Objects 57: obj_stgtimer
+	Objects 569: obj_bullet15
+	Objects 58: obj_BOSSWARNING0
+	Objects 570: obj_bullet16
+	Objects 59: obj_playermovelock
+	Objects 571: obj_lastspear0
+	Objects 60: obj_levelintro
+	Objects 572: obj_en2last
+	Objects 61: obj_playerbang
+	Objects 573: obj_lastmech0arm
+	Objects 62: obj_bparentsmall
+	Objects 574: obj_lastmech0
+	Objects 63: obj_bulldestroy
+	Objects 575: obj_lastmech1
+	Objects 64: obj_0bullet
+	Objects 576: obj_dronespawn0
+	Objects 65: obj_smallburst0
+	Objects 577: obj_dronespawn1
+	Objects 66: obj_1bullet
+	Objects 578: obj_dronespawner
+	Objects 67: obj_pwbullet2
+	Objects 579: obj_ninja0
+	Objects 68: obj_bluexplod
+	Objects 580: obj_walkbotspawn
+	Objects 69: obj_1bullet2
+	Objects 581: obj_bouncebul1
+	Objects 70: obj_1bullet2add
+	Objects 582: obj_bouncebul0
+	Objects 71: obj_1bulld
+	Objects 583: obj_lastbul2
+	Objects 72: obj_1laser
+	Objects 584: obj_walkbot2
+	Objects 73: obj_1laserp
+	Objects 585: obj_walkbot3
+	Objects 74: obj_1laserd
+	Objects 586: obj_laserbotspawn
+	Objects 75: obj_laserspark
+	Objects 587: obj_ninjabot1
+	Objects 76: obj_laserburst0
+	Objects 588: obj_runen1
+	Objects 77: obj_laserburst1
+	Objects 589: obj_laserbot0
+	Objects 78: obj_option1
+	Objects 590: obj_arcnadesp
+	Objects 79: obj_option2
+	Objects 591: obj_arcnadesp2
+	Objects 80: obj_option3
+	Objects 592: obj_lastninja0
+	Objects 81: obj_opattack
+	Objects 593: obj_ninja0swing
+	Objects 82: obj_optionshot
+	Objects 594: obj_lastninja0fall
+	Objects 83: obj_weap3shot
+	Objects 595: obj_lastninja1
+	Objects 84: obj_1wep3d
+	Objects 596: obj_enshield2
+	Objects 85: obj_1wep3d2
+	Objects 597: obj_enshield3
+	Objects 86: obj_playeraim
+	Objects 598: obj_enshieldgeneric
+	Objects 87: obj_specialweapon
+	Objects 599: obj_shieldplatm
+	Objects 88: obj_field
+	Objects 600: obj_slidedoor1
+	Objects 89: obj_bombfield
+	Objects 601: obj_cameraflash0
+	Objects 90: obj_prespawn
+	Objects 602: obj_lastsetpiece0
+	Objects 91: obj_player
+	Objects 603: obj_progressblock0
+	Objects 92: obj_addbullet
+	Objects 604: obj_nadebang0
+	Objects 93: ANOTHER_PLAYERBACKUP
+	Objects 605: obj_nadeflame0
+	Objects 94: PLAYER_BACKUP
+	Objects 606: obj_nadeflame1
+	Objects 95: obj_playerhit
+	Objects 607: obj_droneplacement0
+	Objects 96: obj_bspar
+	Objects 608: obj_lenbooster
+	Objects 97: obj_boost
+	Objects 609: obj_lspreaddrone
+	Objects 98: obj_smoke1
+	Objects 610: obj_lballdrone
+	Objects 99: obj_downboost
+	Objects 611: obj_lballdrone2
+	Objects 100: obj_chargeatk
+	Objects 612: obj_wall0
+	Objects 101: obj_chargeball
+	Objects 613: obj_wall0half
+	Objects 102: obj_pickooo
+	Objects 614: obj_entransport0
+	Objects 103: obj_weaponcrate
+	Objects 615: obj_gate0
+	Objects 104: obj_lifecrate
+	Objects 616: obj_enspawnerhost
+	Objects 105: obj_weaponswitch
+	Objects 617: obj_popcorn1
+	Objects 106: obj_lifeorbomb
+	Objects 618: obj_popcorn2
+	Objects 107: obj_PUTXT
+	Objects 619: obj_popcorn3
+	Objects 108: obj_fuelpickup
+	Objects 620: obj_popcorn4
+	Objects 109: obj_weaponitem0
+	Objects 621: obj_popcorn5
+	Objects 110: obj_weaponitem2
+	Objects 622: obj_popcorn6
+	Objects 111: obj_weaponitem
+	Objects 623: obj_popcorn6b
+	Objects 112: obj_weaponitemdrop
+	Objects 624: obj_popcorn6c
+	Objects 113: obj_WEPitem
+	Objects 625: obj_popcorn6d
+	Objects 114: obj_goldboom1
+	Objects 626: obj_popcorn7
+	Objects 115: obj_goldboom0
+	Objects 627: obj_popcorn8
+	Objects 116: obj_playerstarting1
+	Objects 628: obj_popcorn9
+	Objects 117: obj_playerstarting2
+	Objects 629: obj_popcorn10
+	Objects 118: obj_playerstarting3
+	Objects 630: obj_popcorn11
+	Objects 119: obj_playerstarting4
+	Objects 631: obj_popcorn12
+	Objects 120: obj_playertrail
+	Objects 632: obj_popcorn13
+	Objects 121: obj_bombrdy1
+	Objects 633: obj_popcorn14
+	Objects 122: obj_paim1
+	Objects 634: obj_popcorn15
+	Objects 123: obj_bomblast
+	Objects 635: obj_airpopcorn1
+	Objects 124: obj_HOLE
+	Objects 636: obj_airpopcorn2
+	Objects 125: obj_KILL
+	Objects 637: obj_airpopcorn2b
+	Objects 126: obj_platm
+	Objects 638: obj_airpopcorn3
+	Objects 127: obj_platm1
+	Objects 639: obj_turret1
+	Objects 128: obj_vplatm1
+	Objects 640: obj_turret2
+	Objects 129: obj_platm2
+	Objects 641: obj_turret2b
+	Objects 130: obj_platm2wide
+	Objects 642: obj_turret3
+	Objects 131: obj_crplatform
+	Objects 643: obj_turret3b
+	Objects 132: obj_platm2sp
+	Objects 644: obj_turret4
+	Objects 133: obj_platm2sp2
+	Objects 645: obj_turret5
+	Objects 134: obj_platm2sp3
+	Objects 646: obj_turret6
+	Objects 135: obj_platm2sp4
+	Objects 647: obj_elite1
+	Objects 136: obj_rplatform
+	Objects 648: obj_elite2
+	Objects 137: obj_platm3
+	Objects 649: obj_elite3
+	Objects 138: obj_platm4
+	Objects 650: obj_elite3b
+	Objects 139: obj_bosshost
+	Objects 651: obj_elite4
+	Objects 140: obj_scorehost
+	Objects 652: obj_elite5
+	Objects 141: obj_enspawner1
+	Objects 653: obj_elite6
+	Objects 142: obj_enspawner2
+	Objects 654: obj_elite7
+	Objects 143: obj_enspawner2_2
+	Objects 655: obj_elite8
+	Objects 144: obj_TRIGGERen5
+	Objects 656: obj_3ninjaspawner
+	Objects 145: obj_sparku
+	Objects 657: obj_scrollhost
+	Objects 146: obj_en1
+	Objects 658: obj_scrollparent
+	Objects 147: obj_en1b
+	Objects 659: obj_lift0down
+	Objects 148: obj_en1bg
+	Objects 660: obj_lift0
+	Objects 149: obj_en2
+	Objects 661: obj_lifthitbox
+	Objects 150: obj_en2g
+	Objects 662: obj_lifthitbox1
+	Objects 151: obj_en5
+	Objects 663: obj_lifthitbox2
+	Objects 152: obj_en5b
+	Objects 664: obj_floor0
+	Objects 153: obj_en5tun
+	Objects 665: obj_floor1
+	Objects 154: obj_en7c
+	Objects 666: obj_liftplatm0
+	Objects 155: obj_en6
+	Objects 667: obj_liftplatm1
+	Objects 156: obj_en6normal
+	Objects 668: obj_enshield2scroll
+	Objects 157: obj_en6destroy
+	Objects 669: obj_enshield3scroll
+	Objects 158: obj_en6g
+	Objects 670: obj_bg0
+	Objects 159: obj_en8
+	Objects 671: obj_bg1
+	Objects 160: obj_en8g
+	Objects 672: obj_bg2
+	Objects 161: obj_te1
+	Objects 673: obj_bg3
+	Objects 162: obj_te1c
+	Objects 674: obj_enemykill0
+	Objects 163: obj_enr1spawner
+	Objects 675: obj_enemykill1
+	Objects 164: obj_enr1
+	Objects 676: obj_bgkill
+	Objects 165: obj_spreaddrone
+	Objects 677: obj_finalroom0
+	Objects 166: obj_spreaddronearm
+	Objects 678: obj_finalroom1b
+	Objects 167: obj_balldrone
+	Objects 679: obj_finalroom1c
+	Objects 168: obj_balldrone2
+	Objects 680: obj_finalroomelevator
+	Objects 169: obj_enbooster
+	Objects 681: obj_finalseperator
+	Objects 170: obj_boosterorigin
+	Objects 682: obj_doorlock0
+	Objects 171: obj_enboostergun
+	Objects 683: obj_terminal0
+	Objects 172: obj_trainturret1
+	Objects 684: obj_ninjawarning0
+	Objects 173: obj_trainturret2
+	Objects 685: obj_lastlevelwall0
+	Objects 174: obj_trainturretatk
+	Objects 686: obj_finalroom1
+	Objects 175: obj_trainturretatk2
+	Objects 687: obj_finalroom2
+	Objects 176: obj_traintstain
+	Objects 688: obj_finalroom3
+	Objects 177: obj_enjump1
+	Objects 689: obj_finalroom4
+	Objects 178: obj_enjump2
+	Objects 690: obj_FINALBOSSHOST
+	Objects 179: obj_enjump0
+	Objects 691: obj_fborbit
+	Objects 180: obj_encrawler
+	Objects 692: obj_fbph0
+	Objects 181: obj_encrawlerd
+	Objects 693: obj_fbboost
+	Objects 182: obj_encrawleraim
+	Objects 694: obj_fbshield0
+	Objects 183: obj_cop0
+	Objects 695: obj_fbdrone0
+	Objects 184: obj_encop1
+	Objects 696: obj_fbdrone1
+	Objects 185: obj_encopwalk
+	Objects 697: obj_bombbul1
+	Objects 186: obj_cop1double
+	Objects 698: obj_fbbullet1
+	Objects 187: obj_cop1aim
+	Objects 699: obj_drone1
+	Objects 188: obj_enwalk1
+	Objects 700: obj_fblaser0
+	Objects 189: obj_enwalk1aim
+	Objects 701: obj_fblaser0a
+	Objects 190: obj_enheli1
+	Objects 702: obj_fblaser0b
+	Objects 191: obj_heliorbit1
+	Objects 703: obj_fbintro
+	Objects 192: obj_jetski
+	Objects 704: obj_fbteleport
+	Objects 193: obj_jetskiarm
+	Objects 705: obj_fbground0
+	Objects 194: obj_wallcannon0
+	Objects 706: obj_fbph0drone
+	Objects 195: obj_enbullhost
+	Objects 707: obj_fbtele0
+	Objects 196: obj_bulldeath
+	Objects 708: obj_fbph1spawner
+	Objects 197: obj_bulldeath2
+	Objects 709: obj_bossbang0
+	Objects 198: obj_bullet1
+	Objects 710: obj_fbph1
+	Objects 199: obj_bullet1w
+	Objects 711: obj_fbboost2
+	Objects 200: obj_bullet2
+	Objects 712: obj_bossnade0
+	Objects 201: obj_bullet3
+	Objects 713: obj_bossnade1
+	Objects 202: obj_bullet4
+	Objects 714: obj_fbskullbul0
+	Objects 203: obj_bullet10
+	Objects 715: obj_bosslaser0
+	Objects 204: obj_laser1
+	Objects 716: obj_fbbullet2
+	Objects 205: obj_laser1b
+	Objects 717: obj_fbbullet3
+	Objects 206: obj_bomb1
+	Objects 718: obj_fbbullet4
+	Objects 207: obj_bomb1a
+	Objects 719: obj_fbbullet5
+	Objects 208: obj_bomb1f
+	Objects 720: obj_fbbullet6
+	Objects 209: obj_flame1
+	Objects 721: obj_nadereticle0
+	Objects 210: obj_shlaser
+	Objects 722: obj_easyend0
+	Objects 211: obj_bubble
+	Objects 723: obj_fbflamebul1
+	Objects 212: obj_bubble1
+	Objects 724: obj_fbflamespread0
+	Objects 213: obj_bubblepop
+	Objects 725: obj_fborb0
+	Objects 214: obj_smallskull
+	Objects 726: obj_fborborbit0
+	Objects 215: obj_bullet5
+	Objects 727: obj_fbenergyball0
+	Objects 216: obj_bullet6
+	Objects 728: obj_fbenergyball1
+	Objects 217: obj_bullet7
+	Objects 729: obj_fbph2
+	Objects 218: obj_bullet8
+	Objects 730: obj_fbph3
+	Objects 219: obj_bullet9
+	Objects 731: obj_fbph4
+	Objects 220: obj_ring2
+	Objects 732: obj_fbph4b
+	Objects 221: obj_ring0
+	Objects 733: obj_fbph5
+	Objects 222: obj_ring1
+	Objects 734: obj_fbph6
+	Objects 223: obj_bgbullet1
+	Objects 735: obj_fbph6head
+	Objects 224: obj_bgbullet2
+	Objects 736: obj_bigflame0
+	Objects 225: obj_bgbullet3
+	Objects 737: obj_enballfb
+	Objects 226: obj_landmine
+	Objects 738: obj_ensphere0
+	Objects 227: obj_bullet11
+	Objects 739: obj_fbfbg0
+	Objects 228: obj_bullet12
+	Objects 740: obj_fbfbg1
+	Objects 229: obj_bullet12b
+	Objects 741: obj_fborbit2
+	Objects 230: obj_bullet13
+	Objects 742: obj_finalflash0
+	Objects 231: obj_bullet13b
+	Objects 743: obj_fbexpbg0
+	Objects 232: obj_bullet14
+	Objects 744: obj_fbexpspawner
+	Objects 233: obj_skullbul1
+	Objects 745: obj_finalflash1
+	Objects 234: obj_skullbul0
+	Objects 746: obj_ruinedcity0
+	Objects 235: obj_truck1
+	Objects 747: obj_ruinedcity1
+	Objects 236: obj_truck2
+	Objects 748: obj_ruinedcity2
+	Objects 237: obj_robobits
+	Objects 749: obj_ruinedcity3
+	Objects 238: obj_explosion0
+	Objects 750: obj_lightningflash0
+	Objects 239: obj_explosion1
+	Objects 751: obj_bglightning0
+	Objects 240: obj_explosion2
+	Objects 752: obj_playerreflection
+	Objects 241: obj_exploball
+	Objects 753: obj_fbblackhole0
+	Objects 242: obj_exploball2
+	Objects 754: obj_fbblackhole1
+	Objects 243: obj_explosion3
+	Objects 755: obj_bhexp0
+	Objects 244: obj_surfbot0
+	Objects 756: obj_bhexp1
+	Objects 245: obj_seagull
+	Objects 757: obj_fbbh0
+	Objects 246: obj_fountain0
+	Objects 758: obj_fbbh1
+	Objects 247: obj_copcar0
+	Objects 759: obj_fbsword0
+	Objects 248: obj_watersplash
+	Objects 760: obj_fbsword1
+	Objects 249: obj_watersplash1
+	Objects 761: obj_fbsword2
+	Objects 250: obj_water0
+	Objects 762: obj_fbblades0
+	Objects 251: obj_water1
+	Objects 763: obj_fbspherebg0
+	Objects 252: obj_window1
+	Objects 764: obj_fbfinalsphere0
+	Objects 253: obj_window2
+	Objects 765: obj_fbfinalsphered
+	Objects 254: obj_glassbits
+	Objects 766: obj_fbreticle0
+	Objects 255: obj_advert0
+	Objects 767: obj_bholespawner0
+	Objects 256: obj_monitor0
+	Objects 768: obj_lightbeam0
+	Objects 257: obj_warning1
+	Objects 769: obj_circle0
+	Objects 258: obj_gogo
+	Objects 770: obj_circle1
+	Objects 259: obj_GOGOTHING
+	Objects 771: obj_finalstats0
+	Objects 260: obj_TRAINWHEEL
+	Objects 772: obj_scoreboard0
+	Objects 261: obj_LAVA
+	Objects 773: obj_profile0
+	Objects 262: obj_timerstop
+	Objects 774: obj_scoreboard1
+	Objects 263: obj_pausestop
+	Objects 775: obj_SCREENSHAKE
+	Objects 264: obj_swipe
+	Objects 776: obj_tutbarrier0
+	Objects 265: obj_swipe2
+	Objects 777: obj_tutbarrier1
+	Objects 266: obj_startanim
+	Objects 778: obj_tutbarrier2
+	Objects 267: obj_flyingenemy
+	Objects 779: obj_tutbarrier3
+	Objects 268: obj_entrash
+	Objects 780: obj_tutbarrier4
+	Objects 269: obj_aim1
+	Objects 781: obj_tuten0
+	Objects 270: obj_rivalaim
+	Objects 782: obj_tuten1
+	Objects 271: obj_rivbul1
+	Objects 783: obj_tuten2
+	Objects 272: obj_rivbul2
+	Objects 784: obj_tutbarrierd
+	Objects 273: obj_rivbul3
+	Objects 785: obj_tuten1spawner
+	Objects 274: obj_rmissile
+	Objects 786: obj_tuten2spawner
+	Objects 275: obj_rmissileb
+	Objects 787: obj_tutbullet1
+	Objects 276: obj_rbomb
+	Objects 788: obj_tuttrail0
+	Objects 277: obj_rbomba
+	Objects 789: obj_weaponzone
+	Objects 278: obj_rbomba2
+	Objects 790: obj_BARRIER
+	Objects 279: obj_rplatm
+	Objects 791: obj_debugtext
+	Objects 280: obj_rplatm2
+	Objects 792: obj_gamepadcheck
+	Objects 281: obj_rival1
+	Objects 793: obj_controlswitch
+	Objects 282: obj_rboost
+	Objects 794: obj_SCREENSHAKE2
+	Objects 283: obj_rivalhit
+	Objects 795: obj_SCREENSHAKE3
+	Objects 284: obj_roption
+	Objects 796: obj_SCREENSHAKE4
+	Objects 285: obj_rshield
+	Objects 797: obj_BIGSCREENSHAKE
+	Objects 286: obj_rcreatore
+	Objects 798: obj_floatingtext
+	Objects 287: obj_BOSSWALL0
+	Objects 799: obj_endtutorial
+	Objects 288: obj_bossexplosion
+	Objects 800: obj_floatingsprite
+	Objects 289: obj_bexp
+	Objects 801: obj_CHECKPOINT
+	Objects 290: obj_barm0
+	Objects 802: obj_BULLETCANCEL
+	Objects 291: obj_barm
+	Objects 803: obj_ALARM
+	Objects 292: obj_shmove
+	Objects 804: obj_bubblespew
+	Objects 293: obj_shatk
+	Objects 805: obj_civtruck0
+	Objects 294: obj_boxl
+	Objects 806: obj_civcar0
+	Objects 295: obj_b1hc
+	Objects 807: obj_SCANLINES
+	Objects 296: obj_blackhole1
+	Objects 808: obj_ENDGAME
+	Objects 297: obj_shmove2
+	Objects 809: BOGUHOGU
+	Objects 298: obj_bossu
+	Objects 299: obj_bossu1
+	Objects 300: obj_bossuhitbox
+	Objects 301: obj_bossatk1
+	Objects 302: obj_bossatk2
+	Objects 303: obj_bossatkround
+	Objects 304: obj_bossmusic
+	Objects 305: obj_SLAM0
+	Objects 306: obj_CRAWLER1
+	Objects 307: obj_CRAWLERINTERIOR
+	Objects 308: obj_crawlerhost
+	Objects 309: obj_WHEELS
+	Objects 310: obj_crlaserhost
+	Objects 311: obj_crlaser
+	Objects 312: obj_bullbox1
+	Objects 313: object255
+	Objects 314: obj_ship2orbit1
+	Objects 315: obj_ship2origin1
+	Objects 316: obj_SHIP2
+	Objects 317: obj_shipatk1
+	Objects 318: obj_SHIPHOST
+	Objects 319: obj_spinball1
+	Objects 320: obj_spinball2
+	Objects 321: obj_attackbox1
+	Objects 322: obj_attackbox2
+	Objects 323: obj_attackbox3
+	Objects 324: obj_attackbox4
+	Objects 325: obj_attackbox5
+	Objects 326: obj_attackbox6
+	Objects 327: obj_attackbox7
+	Objects 328: obj_attackbox8
+	Objects 329: obj_attackbox8_1
+	Objects 330: obj_attackbox8_2
+	Objects 331: obj_attackbox9
+	Objects 332: obj_attackbox10
+	Objects 333: obj_SHIPORIGIN
+	Objects 334: obj_SHIPORIGIN2
+	Objects 335: obj_SHIPORBIT
+	Objects 336: obj_SHIP1
+	Objects 337: obj_SHIPORIGIN2_1
+	Objects 338: obj_SHIPORIGIN2_2
+	Objects 339: obj_SHIPORBIT2
+	Objects 340: obj_SHIP1_2
+	Objects 341: obj_shipshadow
+	Objects 342: obj_shipshadow2
+	Objects 343: obj_shipfnade
+	Objects 344: obj_fshipflame
+	Objects 345: obj_shipsmoke0
+	Objects 346: obj_shipflame
+	Objects 347: obj_shipsmoke1
+	Objects 348: obj_nobullets
+	Objects 349: obj_bossbgbullet
+	Objects 350: obj_SHIPFLYINGIN
+	Objects 351: obj_bossballdrone
+	Objects 352: obj_snakelaser0
+	Objects 353: obj_snakelaser1
+	Objects 354: obj_snakelaser2
+	Objects 355: obj_SNAKE2
+	Objects 356: obj_SNAKE1
+	Objects 357: obj_wormhost
+	Objects 358: obj_snakespot0
+	Objects 359: obj_snakespot1
+	Objects 360: obj_snakespot2
+	Objects 361: obj_snakespot3
+	Objects 362: obj_bosssplash
+	Objects 363: obj_SETSNAKE1
+	Objects 364: obj_SETSNAKE2
+	Objects 365: obj_snakeatk1
+	Objects 366: obj_snakeatk2
+	Objects 367: obj_snakeatk3
+	Objects 368: obj_snakeatk4
+	Objects 369: obj_snakeatk5
+	Objects 370: obj_snakeatk6
+	Objects 371: obj_snakeatk7
+	Objects 372: obj_snakeatk8
+	Objects 373: obj_snakeatk9
+	Objects 374: obj_snakeatk10
+	Objects 375: obj_snakeatk11
+	Objects 376: obj_snakeatk12
+	Objects 377: obj_snakeatk13
+	Objects 378: obj_snakeball0
+	Objects 379: obj_snakedrone1
+	Objects 380: obj_snakesplash0
+	Objects 381: obj_warning0
+	Objects 382: obj_target0
+	Objects 383: obj_setpiecet1
+	Objects 384: obj_setpiece2
+	Objects 385: obj_setpiece3
+	Objects 386: obj_setpiece4
+	Objects 387: obj_factorycam
+	Objects 388: obj_factorywall1
+	Objects 389: obj_factorywall2
+	Objects 390: obj_enbooster1
+	Objects 391: obj_boosterorigin1
+	Objects 392: obj_enbooster2
+	Objects 393: obj_boosterorigin2
+	Objects 394: obj_enbooster3
+	Objects 395: obj_boosterorigin3
+	Objects 396: obj_enbooster4
+	Objects 397: obj_boosteratk0
+	Objects 398: obj_boosterorigin4
+	Objects 399: obj_enBOMB0
+	Objects 400: obj_enBOMB1
+	Objects 401: obj_bridge0
+	Objects 402: obj_bridgeplatm
+	Objects 403: obj_bridgeplatm2
+	Objects 404: obj_fmissile
+	Objects 405: obj_fbullet1
+	Objects 406: obj_fbullet2
+	Objects 407: obj_elenemy0
+	Objects 408: obj_fclone0
+	Objects 409: obj_fclone1
+	Objects 410: obj_enturtle0
+	Objects 411: obj_flyturtle
+	Objects 412: obj_turtleorigin0
+	Objects 413: obj_fplatm0
+	Objects 414: obj_STOP3
+	Objects 415: obj_laserbeam0
+	Objects 416: obj_laserbeam1
+	Objects 417: obj_laserbeam2
+	Objects 418: obj_timerdelay
+	Objects 419: obj_bulletshower
+	Objects 420: obj_weaponcarrier
+	Objects 421: obj_carrierorigin
+	Objects 422: obj_fmechflame
+	Objects 423: obj_fmechdeath
+	Objects 424: obj_mechorigind
+	Objects 425: obj_fmech1
+	Objects 426: obj_mechlegl
+	Objects 427: obj_mechlegr
+	Objects 428: obj_mecharm0
+	Objects 429: obj_mechbeam0
+	Objects 430: obj_mechbeam1
+	Objects 431: obj_mechorigin0
+	Objects 432: obj_mechorigin1
+	Objects 433: obj_mechattack0
+	Objects 434: obj_mechattack1
+	Objects 435: obj_mechattack2
+	Objects 436: obj_mechattack3
+	Objects 437: obj_mechattack4
+	Objects 438: obj_mechattack5
+	Objects 439: obj_mechattack6
+	Objects 440: obj_mechattack7
+	Objects 441: obj_mechattack8
+	Objects 442: obj_mechattack9
+	Objects 443: obj_mechbullet1
+	Objects 444: obj_fopen
+	Objects 445: mechbeam0
+	Objects 446: obj_mechflame
+	Objects 447: obj_elevatorend
+	Objects 448: obj_elelight
+	Objects 449: obj_felevator0
+	Objects 450: obj_fplayer
+	Objects 451: obj_lava1
+	Objects 452: obj_lava2
+	Objects 453: obj_lavaspawner
+	Objects 454: obj_sparkspawner
+	Objects 455: obj_lavaorbit0
+	Objects 456: obj_lavashoots
+	Objects 457: obj_lavashoot0
+	Objects 458: obj_lavaflame0
+	Objects 459: obj_belt0
+	Objects 460: obj_belt1
+	Objects 461: obj_belt2
+	Objects 462: obj_beltscroll
+	Objects 463: obj_boxspawner0
+	Objects 464: obj_fbox0
+	Objects 465: obj_lavaspark0
+	Objects 466: obj_factorycop1
+	Objects 467: obj_fclone2
+	Objects 468: obj_enbug0
+	Objects 469: obj_bugtop
+	Objects 470: obj_bugdown
+	Objects 471: obj_bugspawner
+	Objects 472: obj_enturtle1
+	Objects 473: obj_fbullet11
+	Objects 474: obj_turretarm0
+	Objects 475: obj_turretmech0
+	Objects 476: obj_fturret0
+	Objects 477: obj_fturret1
+	Objects 478: obj_fwallcannon0
+	Objects 479: obj_ffloorcannon0
+	Objects 480: obj_flash0
+	Objects 481: obj_fnade0
+	Objects 482: obj_enshield1
+	Objects 483: obj_enshield1b
+	Objects 484: obj_turretspawner0
+	Objects 485: obj_beltturret1
+	Objects 486: obj_turretspawner1
+	Objects 487: obj_beltturret2
+	Objects 488: obj_deathbullets0
+	Objects 489: obj_rockethatch1
+	Objects 490: obj_rocketflame
+	Objects 491: obj_turretdestroy
+	Objects 492: obj_turretspawntrigger
+	Objects 493: obj_lavashoots2
+	Objects 494: obj_bugdown2
+	Objects 495: obj_bugspawner2
+	Objects 496: obj_lavaddd
+	Objects 497: obj_lavadtrigger
+	Objects 498: obj_enbug2
+	Objects 499: obj_particledestroy0
+	Objects 500: obj_door0
+	Objects 501: obj_doorhalf
+	Objects 502: obj_slidedoor0
+	Objects 503: obj_walkbot0
+	Objects 504: obj_walkkillnum
+	Objects 505: obj_walkbot1
+	Objects 506: obj_factoryplatm2
+	Objects 507: obj_bcontainer0
+	Objects 508: obj_bgflicker0
+	Objects 509: obj_bgflicker1
+	Objects 510: obj_fnade1
+	Objects 511: obj_BULKHOST
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio_WAVs()
+platform/common/zip_util.c:71: Failed to stat file 'assets/audiogroup2.dat'.
+ports/gmloader/libyoyo.c:361: Unable to open Audio Group 2!
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Could not look up method getPackageManager, NULL class.
+Class RunnerJNILib does not have field ms_context.
+Could not look up method hasSystemFeature, NULL class.
+LOG[yoyo]: android.software.leanback = 0
+LOG[yoyo]: MANUFACTURER = JohnnyonFlame
+HACK:: Disabled surface depth.
+Controller 'RetroGame Joypad' assigned to player 0.
+Texture size: 2048x2048
+Texture size: 2048x2048
+Texture size: 2048x2048
+Texture size: 2048x2048
+Texture size: 1024x2048
+yoyo died.
+arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.
