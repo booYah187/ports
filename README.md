@@ -6,6 +6,8 @@ Download game from https://store.steampowered.com/app/435790/10_Second_Ninja_X/,
 
 ******Issue: Save does not persist after exiting game******
 
+__________
+
 cognizance
 
 ![cognizance](https://github.com/booYah187/ports/blob/main/ports/cognizance/cognizance.png)
@@ -13,6 +15,8 @@ cognizance
 Download game from https://managore.itch.io/cognizance, copy data.win and mus_main.ogg to /ports/cognizance/gamedata
 
 ******Issue: Save does not function, dev issue******
+
+__________
 
 ember skull
 
@@ -22,6 +26,8 @@ Download game from https://cheesebaron2.itch.io/ember-skull, rename EmberSkull_v
 
 ******Issue: Touch required to select play, in game items******
 
+__________
+
 gunkey
 
 ![gunkey](https://github.com/booYah187/ports/blob/main/ports/gunkey/gunkey.png)
@@ -29,6 +35,8 @@ gunkey
 Download game from https://s4g.itch.io/gunkey, rename Gunkey.pck and Gunkey.x86_64 to gunkey.pck and and gunkey.x86_64 and copy to /ports/gunkey/
 
 ******Issue: Aiming suffers from general wonkiness******
+
+__________
 
 magicvigilante
 
@@ -38,6 +46,8 @@ Download game from https://nizakashii.itch.io/magicvigilante, copy data.win to /
 
 ******Issue: I did not suffer from seizures prior to playing; I do now. Can this be safe?******
 
+__________
+
 redpulse
 
 ![redpulse](https://github.com/booYah187/ports/blob/main/ports/redpulse/redpulse.png)
@@ -45,6 +55,8 @@ redpulse
 Download game v1.1 from https://boghog.itch.io/redpulse, copy data.win and .dat files to /ports/redpulse/gamedata
 
 ******Issue: Initial input config works, but after exiting game it changes. phantoms.******
+
+__________
 
 roguelite
 
@@ -54,6 +66,8 @@ Download game from https://managore.itch.io/roguelight, copy data.win and .mp3 f
 
 ******Issue: Not sure if this is really hard, I really suck, or what.******
 
+__________
+
 turbo table tennis
 
 ![turbotabletennis](https://github.com/booYah187/ports/blob/main/ports/turbotabletennis/turbotabletennis.png)
@@ -61,3 +75,5 @@ turbo table tennis
 Download game (linux) from https://menacingmecha.itch.io/turbo-table-tennis, rename ttt_v1.0.0_x11.pck and ttt_v1.0.0_x11.x86_64 to turbotabletennis.pck and turbotabletennis.x86_64, copy to /ports/turbotabletennis/
 
 ******Issue: Touch required to restart******
+
+__________
