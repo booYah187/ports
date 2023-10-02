@@ -22,6 +22,14 @@ Download game from https://cheesebaron2.itch.io/ember-skull, rename EmberSkull_v
 
 ******Issue: Touch required to select play, in game items******
 
+gunkey
+
+![gunkey](https://github.com/booYah187/ports/blob/main/ports/gunkey/gunkey.png)
+
+Download game from https://s4g.itch.io/gunkey, rename Gunkey.pck and Gunkey.x86_64 to gunkey.pck and and gunkey.x86_64 and copy to /ports/gunkey/
+
+******Issue: Aiming suffers from general wonkiness******
+
 magicvigilante
 
 ![magicvigilante](https://github.com/booYah187/ports/blob/main/ports/magicvigilante/magicvigilante.png)
