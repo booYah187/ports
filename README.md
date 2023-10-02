@@ -4,7 +4,7 @@
 
 Download game from https://store.steampowered.com/app/435790/10_Second_Ninja_X/, copy data.win and all .dat and .ogg files to /ports/10snx/gamedata
 
-******Issue: Save does not persist after exiting game******
+******Issue: Save does not persist after exiting game, minor graphical error in stage select screen******
 
 __________
 
