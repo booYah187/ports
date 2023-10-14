@@ -38,16 +38,6 @@ Download game from https://s4g.itch.io/gunkey, rename Gunkey.pck and Gunkey.x86_
 
 __________
 
-magicvigilante
-
-![magicvigilante](https://github.com/booYah187/ports/blob/main/ports/magicvigilante/magicvigilante.png)
-
-Download game from https://nizakashii.itch.io/magicvigilante, copy data.win to /ports/magicviglante/gamedata
-
-******Issue: I did not suffer from seizures prior to playing; I do now. Can this be safe?******
-
-__________
-
 redpulse
 
 ![redpulse](https://github.com/booYah187/ports/blob/main/ports/redpulse/redpulse.png)
@@ -55,25 +45,5 @@ redpulse
 Download game v1.1 from https://boghog.itch.io/redpulse, copy data.win and .dat files to /ports/redpulse/gamedata
 
 ******Issue: Initial input config works, but after exiting game it changes. phantoms.******
-
-__________
-
-roguelite
-
-![roguelight](https://github.com/booYah187/ports/blob/main/ports/Roguelight/roguelight.png)
-
-Download game from https://managore.itch.io/roguelight, copy data.win and .mp3 files to /ports/Roguelight/gamedata
-
-******Issue: Not sure if this is really hard, I really suck, or what.******
-
-__________
-
-turbo table tennis
-
-![turbotabletennis](https://github.com/booYah187/ports/blob/main/ports/turbotabletennis/turbotabletennis.png)
-
-Download game (linux) from https://menacingmecha.itch.io/turbo-table-tennis, rename ttt_v1.0.0_x11.pck and ttt_v1.0.0_x11.x86_64 to turbotabletennis.pck and turbotabletennis.x86_64, copy to /ports/turbotabletennis/
-
-******Issue: Touch required to restart******
 
 __________
